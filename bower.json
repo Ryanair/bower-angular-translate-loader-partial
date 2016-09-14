@@ -1,7 +1,7 @@
 {
   "name": "angular-translate-loader-partial",
   "description": "A plugin for Angular Translate",
-  "version": "2.6.1",
+  "version": "2.6.1-ie11-fix",
   "main": "./angular-translate-loader-partial.js",
   "dependencies": {
     "angular-translate": "~2.6.1"

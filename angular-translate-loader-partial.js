@@ -110,11 +110,11 @@ angular.module('pascalprecht.translate')
 
   function getPrioritizedParts() {
     var prioritizedParts = [];
-    for(var part in parts) {
+    Object.keys(parts).forEach(function(part) {
       if (parts[part].isActive) {
         prioritizedParts.push(parts[part]);
       }
-    }
+    });
     prioritizedParts.sort(function (a, b) {
       return a.priority - b.priority;
     });
